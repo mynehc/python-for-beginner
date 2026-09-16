@@ -8,18 +8,21 @@ Implement each function below. Run this file directly to self-check:
 
 def hello_world():
     """Return the exact string "Hello, World!"."""
+    return "Hello, World!"
     # TODO: implement
     raise NotImplementedError
 
 
 def say_hello(name):
     """Return "Hello, <name>!" built using string concatenation (+)."""
+    return "Hello, " + name + "!"
     # TODO: implement
     raise NotImplementedError
 
 
 def two_lines():
     """Return one string that prints as two lines: "First line" then "Second line"."""
+    return "First line\nSecond line"
     # TODO: implement
     raise NotImplementedError
 
